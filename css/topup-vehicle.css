@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8f0fe;
+}
+
+.topup-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.topup-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.topup-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #eef6ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.topup-item:hover {
+    background-color: #d9e6ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topup-details h2 {
+    margin: 0;
+    color: #444;
+    font-size: 18px;
+}
+
+.topup-details p {
+    margin: 5px 0 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.topup-button, .back-button {
+    text-decoration: none;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.topup-button:hover, .back-button:hover {
+    background-color: #357ae8;
+}
+
+/* Style untuk Footer yang Lebih Sederhana */
+.footer-simple {
+    background-color: #2c3e50; /* Warna latar belakang footer */
+    color: #ecf0f1; /* Warna teks */
+    padding: 20px 0; /* Padding atas-bawah lebih kecil */
+    text-align: center; /* Pusatkan teks */
+    font-size: 14px; /* Ukuran font kecil */
+    width: 100%; /* Lebar penuh */
+}
+
+.footer-content {
+    max-width: 800px; /* Maksimal lebar untuk konten footer */
+    margin: 0 auto; /* Pusatkan footer */
+}
+
+.footer-section {
+    margin-bottom: 10px; /* Jarak antar bagian */
+}
+
+.footer-section h4 {
+    font-size: 16px; /* Ukuran font untuk judul lebih kecil */
+    margin-bottom: 5px; /* Margin bawah lebih kecil */
+    color: #f39c12; /* Warna judul */
+}
+
+.footer-section a {
+    color: #f39c12; /* Warna link */
+    text-decoration: none; /* Hilangkan garis bawah */
+    margin: 0 5px; /* Jarak antar link */
+}
+
+.footer-section a:hover {
+    color: #ecf0f1; /* Warna link saat dihover */
+}
